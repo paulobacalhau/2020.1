@@ -1,0 +1,12 @@
+arquivo_saida = open ("notas.txt", "w")
+
+arquivo_saida.write ("Notas da prova\n")
+arquivo_saida.write ("-" * 40 + "\n")
+arquivo_saida.write ("*" * 40 + "\n")
+arquivo_saida.write ("Notas da prova\n")
+arquivo_saida.write ("Alunos reprovados\n")
+arquivo_saida.write ("Felipe\n")
+arquivo_saida.write ("Robson\n")
+arquivo_saida.write ("Margos Gleison\n")
+arquivo_saida.write ("Esta eh uma linha com varios espacos para mostrar o split\n")
+arquivo_saida.close()
