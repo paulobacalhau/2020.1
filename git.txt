@@ -1,8 +1,12 @@
 echo "# 2020.1" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "Projetos / programas desenvolvidos em 2020.1"
 git remote add origin https://github.com/paulobacalhau/2020.1.git
 git push -u origin master
 
-git rm remote origin // Remove o git remoto
+git remote rm origin // Remove o git remoto
+
+git config --global --get user.name
+
+git config --global --get user.email
